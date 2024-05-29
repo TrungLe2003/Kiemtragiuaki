@@ -1,0 +1,114 @@
+body {
+  background-color: #45b9a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: 60vw;
+  height: 70vh;
+
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 50px 0 rgb(61, 59, 59);
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 100%;
+}
+
+/* Container-left */
+.container-left {
+  position: relative;
+}
+.menu {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+
+  height: 120%;
+  width: 60%;
+  background-color: #7ed386;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 3px 3px 10px 0 rgb(179, 166, 166);
+}
+.menu > img {
+  height: 30%;
+  width: 30%;
+}
+/* Personal-infor */
+.personal-infor {
+  display: flex;
+  flex-direction: column;
+}
+.personal-infor > h2 {
+  color: #37ba3b;
+  padding-bottom: 0;
+
+  position: relative;
+  top: 5%;
+}
+.personal-infor > div {
+  margin-top: 5%;
+
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.personal-infor > div > div {
+  margin-bottom: 2%;
+}
+.infor {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #7accbf;
+  margin-top: 3%;
+  padding-bottom: 5px;
+}
+.infor > button {
+  color: #38d1bf;
+  background-color: #d6dfd2;
+  border: 1px solid #d6dfd2;
+  width: 15%;
+}
+/* HUHU*/
+.huhu {
+  position: relative;
+}
+.hd {
+  color: #37ba3b;
+  font-size: 250%;
+}
+.button-get {
+  height: 40%;
+  width: 100%;
+
+  display: flex;
+  align-items: end;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 10px;
+  bottom: 110px;
+}
+.button-get > button {
+  height: 30%;
+  width: 50%;
+  background-color: #7ed386;
+  border: 1px solid #7ed386;
+  color: white;
+  font-weight: bold;
+}
+.button-get > button:hover {
+  transform: rotate(90deg);
+  background-color: #38d1bf;
+  border: 1px solid #38d1bf;
+
+  width: 50%;
+}
